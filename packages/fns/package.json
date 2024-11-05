@@ -1,25 +1,28 @@
 {
-  "name": "@react-pdf/fns",
-  "version": "3.0.0",
-  "license": "MIT",
+  "name": "@react-pdf-lite/fns",
   "description": "React-pdf helper functions",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "version": "1.0.0",
+  "author": "Kode Monkay <kode.monkay@gmail.com>",
+  "license": "MIT",
   "type": "module",
   "main": "./lib/index.js",
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": " https://github.com/kodemonkay/react-pdf-lite.git",
     "directory": "packages/fns"
   },
+
   "scripts": {
     "test": "vitest",
     "build": "rimraf ./lib && rollup -c",
     "watch": "rimraf ./lib && rollup -c -w"
   },
+
   "dependencies": {
     "@babel/runtime": "^7.20.13"
   },
+
   "files": [
     "lib"
   ]

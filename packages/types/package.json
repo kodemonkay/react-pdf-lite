@@ -1,14 +1,14 @@
 {
-  "name": "@react-pdf/types",
-  "version": "2.7.0",
-  "license": "MIT",
+  "name": "@react-pdf-lite/types",
   "description": "React-pdf TypeScript definitions",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "version": "1.0.0",
+  "author": "Kode Monkay <kode.monkay@gmail.com>",
+  "license": "MIT",
   "main": "index.d.ts",
+  
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": " https://github.com/kodemonkay/react-pdf-lite.git",
     "directory": "packages/types"
   }
 }

@@ -1,20 +1,22 @@
 {
-  "name": "@react-pdf/primitives",
-  "version": "4.0.0",
-  "license": "MIT",
+  "name": "@react-pdf-lite/primitives",
   "description": "Define uninitialized elements",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "version": "1.0.0",
+  "author": "Kode Monkay <kode.monkay@gmail.com>",
+  "license": "MIT",
   "type": "module",
   "main": "./src/index.js",
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": " https://github.com/kodemonkay/react-pdf-lite.git",
     "directory": "packages/primitives"
   },
+
   "scripts": {
     "test": "vitest"
   },
+
   "files": [
     "lib",
     "src"

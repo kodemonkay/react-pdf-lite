@@ -1,36 +1,39 @@
 {
-  "name": "@react-pdf/layout",
-  "version": "4.0.0",
-  "license": "MIT",
+  "name": "@react-pdf-lite/layout",
   "description": "Resolve overall document component's layout",
-  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
-  "homepage": "https://github.com/diegomura/react-pdf#readme",
+  "version": "1.0.0",
+  "author": "Kode Monkay <kode.monkay@gmail.com>",
+  "license": "MIT",
   "type": "module",
   "main": "./lib/index.js",
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/diegomura/react-pdf.git",
+    "url": " https://github.com/kodemonkay/react-pdf-lite.git",
     "directory": "packages/layout"
   },
+
   "scripts": {
     "test": "vitest",
     "build": "rimraf ./lib && rollup -c",
     "watch": "rimraf ./lib && rollup -c -w"
   },
+
   "dependencies": {
+    "@react-pdf-lite/fns": "^1.0.0",
+    "@react-pdf-lite/image": "^1.0.0",
+    "@react-pdf-lite/pdfkit": "^1.0.0",
+    "@react-pdf-lite/primitives": "^1.0.0",
+    "@react-pdf-lite/stylesheet": "^1.0.0",
+    "@react-pdf-lite/textkit": "^1.0.0",
+    "@react-pdf-lite/types": "^1.0.0",
     "@babel/runtime": "^7.20.13",
-    "@react-pdf/fns": "3.0.0",
-    "@react-pdf/image": "^3.0.0",
-    "@react-pdf/pdfkit": "^4.0.0",
-    "@react-pdf/primitives": "^4.0.0",
-    "@react-pdf/stylesheet": "^5.0.0",
-    "@react-pdf/textkit": "^5.0.0",
-    "@react-pdf/types": "^2.7.0",
     "cross-fetch": "^3.1.5",
     "emoji-regex": "^10.3.0",
     "queue": "^6.0.1",
     "yoga-layout": "^3.1.0"
   },
+
   "files": [
     "lib"
   ]
